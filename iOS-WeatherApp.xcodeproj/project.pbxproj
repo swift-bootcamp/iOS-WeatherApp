@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18828C9419A09C5500186AE1 /* rain-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18828C9319A09C5500186AE1 /* rain-icon.png */; };
 		B69526301990605E0093964C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B695262F1990605E0093964C /* AppDelegate.swift */; };
 		B69526321990605E0093964C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69526311990605E0093964C /* ViewController.swift */; };
 		B69526351990605E0093964C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69526331990605E0093964C /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18828C9319A09C5500186AE1 /* rain-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain-icon.png"; sourceTree = "<group>"; };
 		B695262A1990605E0093964C /* iOS-WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-WeatherApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B695262E1990605E0093964C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B695262F1990605E0093964C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		B695262C1990605E0093964C /* iOS-WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				18828C9319A09C5500186AE1 /* rain-icon.png */,
 				B695262F1990605E0093964C /* AppDelegate.swift */,
 				B69526311990605E0093964C /* ViewController.swift */,
 				B69526331990605E0093964C /* Main.storyboard */,
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B69526351990605E0093964C /* Main.storyboard in Resources */,
+				18828C9419A09C5500186AE1 /* rain-icon.png in Resources */,
 				B69526371990605E0093964C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +399,7 @@
 				B69526481990605E0093964C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B69526491990605E0093964C /* Build configuration list for PBXNativeTarget "iOS-WeatherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +408,7 @@
 				B695264B1990605E0093964C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
